@@ -1,0 +1,10 @@
+[project]
+name = "sec-tenant-quota"
+version = "0.1.0"
+description = "Multi-tenant import quota bugfix exercise"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
